@@ -1,0 +1,36 @@
+{
+  "name": "parceljs-v2-base-app",
+  "version": "1.0.0",
+  "description": "Create an app about HTML/CSS/JS with ParcelJS V2 (Web application bundle)",
+  "default": "index.html",
+  "scripts": {
+    "start": "rm -rf dist && rm -rf .parcel-cache && parcel src/index.html --no-cache --no-source-maps",
+    "dev": "rm -rf dist && rm -rf .parcel-cache && parcel src/index.html --no-cache --no-source-maps",
+    "build": "rm -rf build && rm -rf .parcel-cache && parcel build src/index.html --no-cache --no-source-maps --dist-dir build",
+    "reset": "rm -rf build && rm -rf .parcel-cache && rm -rf dist && rm -rf node_modules",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cunguyendev/parceljs-v2-base-app.git"
+  },
+  "keywords": [],
+  "author": "cunguyendev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cunguyendev/parceljs-v2-base-app/issues"
+  },
+  "homepage": "https://github.com/cunguyendev/parceljs-v2-base-app#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.1",
+    "eslint": "^6.7.2",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.19.1",
+    "parcel": "^2.0.1"
+  },
+  "dependencies": {
+    "autoprefixer": "^9.7.6",
+    "feather-icons": "^4.29.0"
+  },
+  "type": "module"
+}

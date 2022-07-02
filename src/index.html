@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>ParcelJS V2 base app</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles/main.scss" />
+  </head>
+
+  <body>
+    <main class="app">
+      <div class="navigation">
+        <ul>
+          <li class="list active">
+            <a href="#">
+              <span class="icon">
+                <i data-feather="home"></i>
+              </span>
+              <span class="text">Home</span>
+            </a>
+          </li>
+          <li class="list">
+            <a href="#">
+              <span class="icon">
+                <i data-feather="user"></i>
+              </span>
+              <span class="text">Profile</span>
+            </a>
+          </li>
+          <li class="list">
+            <a href="#">
+              <span class="icon">
+                <i data-feather="message-circle"></i>
+              </span>
+              <span class="text">Messages</span>
+            </a>
+          </li>
+          <li class="list">
+            <a href="#">
+              <span class="icon">
+                <i data-feather="camera"></i>
+              </span>
+              <span class="text">Photos</span>
+            </a>
+          </li>
+          <li class="list">
+            <a href="#">
+              <span class="icon">
+                <i data-feather="settings"></i>
+              </span>
+              <span class="text">Setting</span>
+            </a>
+          </li>
+
+          <div class="indicator"></div>
+        </ul>
+      </div>
+    </main>
+  </body>
+
+  <!-- feather icon -->
+  <script src="../node_modules/feather-icons/dist/feather.js"></script>
+
+  <!-- scripts -->
+  <script type="module" src="./scripts/index.js"></script>
+</html>
