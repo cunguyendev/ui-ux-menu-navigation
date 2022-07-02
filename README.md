@@ -2,6 +2,11 @@
 
 Bease menu navigation for app
 
+<div align="center">
+  <img src="https://i.ibb.co/5F4JQm8/image.png" alt="logo" width="200" height="auto"
+</div>
+
+<div align="left">
 Author: Cu Nguyen &lt;[cunguyen.dev@gmail.com](cunguyen.dev@gmail.com)&gt;
 
 Deploy to Netlify: https://cn-menu-navigation.netlify.app/
@@ -42,3 +47,5 @@ npm/yarn run build
 _You can update the source structures to follow your patterns._
 
 _Note: Live-reload is supported_
+
+</div>
