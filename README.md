@@ -3,7 +3,7 @@
 Bease menu navigation for app
 
 <div align="center">
-  <img src="https://i.ibb.co/5F4JQm8/image.png" alt="logo" width="200" height="auto"
+  <img src="https://i.ibb.co/f4jfxyB/ezgif-4-63003df716.gif" alt="logo" width="200" height="auto"
 </div>
 
 <div align="left">
